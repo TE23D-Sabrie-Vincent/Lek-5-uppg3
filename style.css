@@ -1,20 +1,54 @@
 * {
     margin: 0px;
     padding: 0px;
+    /* box-sizing: border-box; */
 }
 
 
-#rubrik{
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #35424a;
+    padding: 20px;
+    border-bottom: 3px solid #e8491d;
+}
 
+.rubrik{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
     color: #e8491d
 }
 
-.div-bakgrund{
-    border-bottom: 3px solid #e8491d;
-    background-color: #25424a;
+.navbar .rubrik {
+    font-size: 30px;
+    color: #e8491d;
 }
 
-#Services-id {
-    justify-content: space-between
-    
+.navbar .nav-links {
+    list-style: none;
+
+}
+
+.navbar .nav-links li {
+    display: inline;
+    margin-left: 60px;
+}
+
+.nav-links{
+    margin-right: 100px;
+}
+
+.Services{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#hem-färg{
+    text-decoration: none;
+    color: #e8491d;
+    font-size: 18px;
 }

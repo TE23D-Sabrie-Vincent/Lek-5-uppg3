@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#rubrik{
+
+    color: #e8491d
+}
+
+.div-bakgrund{
+    border-bottom: 3px solid #e8491d;
+    background-color: #25424a;
+}
+
+#Services-id {
+    justify-content: space-between
+    
+}

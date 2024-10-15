@@ -52,3 +52,26 @@
     color: #e8491d;
     font-size: 18px;
 }
+
+.showcase {
+    background: url('./img/showcase.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    border-bottom: 3px solid #e8491d;
+}
+
+.showcase-content h1 {
+    font-size: 48px;
+    color: white;
+}
+
+.showcase-content p {
+    font-size: 18px;
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+
+}
